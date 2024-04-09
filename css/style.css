@@ -1,0 +1,19 @@
+.yellow{
+    color: yellow;
+}
+#greycol{
+  color: gray;  
+}
+div ~ p{
+    color: green;
+}div ~ div{
+    color: red;
+}
+h3{
+    color: pink 
+}
+div ~ h3{
+    color: black !important;
+}
+
+
