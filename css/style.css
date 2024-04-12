@@ -9,11 +9,8 @@ div ~ p{
 }div ~ div{
     color: red;
 }
-h3{
-    color: pink 
-}
-div ~ h3{
-    color: black !important;
+h3:first-child{
+    color: pink;
 }
 
 
