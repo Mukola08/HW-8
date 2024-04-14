@@ -12,5 +12,75 @@ div ~ p{
 h3:first-child{
     color: pink;
 }
+.one{
+    color: blueviolet;
+}
+.two{
+    color:darkgoldenrod;
+}
+.four {
+    color: yellowgreen;
+}
+.six:nth-child(even){
+    color: blue;
+}
+.six{
+    color: yellow;
+}
+.seven:nth-child(2n){
+    color: blueviolet;
+}
+.seven{
+    color: peru;
+}
+.sixteen:nth-child(n+3){
+    color: brown;
+}
+.sixteen{
+    color: deeppink;
+}
+.eight{
+    color: blue;
+}
+.twenty-one:nth-child(-n+6) {
+    color: chartreuse;
+}
+.nineteen:nth-child(2){
+    color:darkmagenta;
+}
+.nineteen{
+    color: red;
+}
 
+.monday{
+    color: blueviolet;
+}
+.tuesday{
+    color:brown
+}
+.wednesday{
+    color: fuchsia;
+}
+.thursday{
+    color:aquamarine
+}
+.friday{
+    color: honeydew;
+}
+.one:hover{
+    color: blue;
+}
+.two:focus{
+    color: brown;
+}
+.four:active{
+    background-color:coral;
+    transform: scale(1,3);
+}
+.three:link{
+    color: orangered;
+}
+.five:visited{
+    color: chocolate;
+}
 
